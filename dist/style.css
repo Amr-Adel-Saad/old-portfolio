@@ -58,6 +58,7 @@ body {
   overflow: auto;
 }
 .title {
+  margin-bottom: -20px;
   font-size: 44px;
   padding: 0.8em;
   border-bottom: 4px solid black;
@@ -69,6 +70,7 @@ body {
   justify-content: space-evenly;
 }
 .project-tile {
+  margin-top: 20px;
   display: block;
   border-radius: 5px;
   overflow: hidden;
@@ -82,7 +84,7 @@ body {
 .project-tile:hover {
   margin-top: -20px;
 }
-#description {
+.description {
   color: white;
   background-color: #1B2630;
   font-size: 30px;
